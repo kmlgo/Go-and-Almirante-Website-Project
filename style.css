@@ -13,7 +13,6 @@ hr {
 
 .dropbtn {
   background-color: #3c5061;
-  background-attachment: fixed;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -46,40 +45,52 @@ hr {
   color: white;
   padding: 14px 25px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
 }
 
 li {
+  background-color: #3c5061;
   display: inline;
 }
 
 ul {
+  position: sticky;
   background-color: #3c5061;
-  margin: 0;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  background-color: #3c5061;
+}
+
 .hub1 {
+  background-color:  #1c2329;
   position: absolute;
   top: 270px;
-  left: 100px; 
+  left: 300px; 
 }
 
 .hub1 .imgtop{
+  background-color:  #1c2329;
   display: none;
   position: absolute;
   top: -270px;
-  left: 0; 
+  left: -220px; 
 }
 
 .hub2 {
+  background-color:  #1c2329;
   position: absolute;
   top: 250px;
   left: 900px; 
 }
 
 .hub2 .imgtop{
+  background-color:  #1c2329;
   display: none;
   position: absolute;
   top: 0px;
@@ -87,6 +98,8 @@ ul {
 }
 
 .dropdown-content a:hover {background-color: #2f3c47;}
+
+.dropbtn a:hover {background-color: #2f3c47;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
