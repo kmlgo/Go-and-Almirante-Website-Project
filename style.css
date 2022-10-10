@@ -1,7 +1,6 @@
 * {
   background-color:  #1c2329;
   color: white;
-  margin: 15px;
 }
 
 .center{
@@ -10,4 +9,95 @@
 
 hr {
   margin: 0 auto;
+}
+
+.dropbtn {
+  background-color: #3c5061;
+  background-attachment: fixed;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3c5061;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.home{
+  background-color: #3c5061;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  background-color: #3c5061;
+  margin: 0;
+  padding: 0;
+}
+
+.hub1 {
+  position: absolute;
+  top: 270px;
+  left: 100px; 
+}
+
+.hub1 .imgtop{
+  display: none;
+  position: absolute;
+  top: -270px;
+  left: 0; 
+}
+
+.hub2 {
+  position: absolute;
+  top: 250px;
+  left: 900px; 
+}
+
+.hub2 .imgtop{
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px; 
+}
+
+.dropdown-content a:hover {background-color: #2f3c47;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #2f3c47;}
+
+.home:hover {background-color: #2f3c47;}
+
+.hub1:hover .imgtop{
+  display: inline;
+}
+
+.hub2:hover .imgtop{
+  display: inline;
 }
