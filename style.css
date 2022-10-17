@@ -1,6 +1,7 @@
 * {
   background-color:  #1c2329;
   color: white;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 .center{
@@ -11,17 +12,23 @@ hr {
   margin: 0 auto;
 }
 
-.dropbtn {
+button {
+   background-color: #3c5061;
+   border: none;
+}
+
+.dropbtn a {
   background-color: #3c5061;
   color: white;
-  padding: 16px;
+  padding: 14px;
   font-size: 16px;
-  border: none;
+  cursor: pointer;
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
+  z-index: 99;
 }
 
 .dropdown-content {
@@ -30,10 +37,10 @@ hr {
   background-color: #3c5061;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 2;
 }
 
 .dropdown-content a {
+  background-color: #3c5061;
   color: white;
   padding: 12px 16px;
   text-decoration: none;
@@ -53,7 +60,12 @@ li {
   display: inline;
 }
 
+li a {
+  font-size: 20px;
+}
+
 ul {
+  top: 0;
   position: sticky;
   background-color: #3c5061;
   margin-top: -10px;
@@ -64,28 +76,47 @@ ul {
 
 a {
   text-decoration: none;
-  background-color: #3c5061;
+}
+
+p {
+  margin: 20px 50px;
+  font-size: 17px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2, h3, h4, h5, h6 {
+  font-size: 30px;
+}
+
+iframe {
+  border-style: none;
+  width: 500px;
+  height: 300px;
 }
 
 .hub1 {
   background-color:  #1c2329;
   position: absolute;
-  top: 270px;
-  left: 300px; 
+  top: 400px;
+  left: 350px; 
+  z-index: -99;
 }
 
 .hub1 .imgtop{
   background-color:  #1c2329;
   display: none;
-  position: absolute;
-  top: -270px;
-  left: -220px; 
+  position: relative;
+  top: -230px;
+  left: -300px; 
 }
 
 .hub2 {
   background-color:  #1c2329;
   position: absolute;
-  top: 250px;
+  top: 370px;
   left: 900px; 
 }
 
@@ -93,17 +124,50 @@ a {
   background-color:  #1c2329;
   display: none;
   position: absolute;
-  top: 0px;
-  left: 0px; 
+  top: -60px;
+  left: -85px; 
 }
+
+.shadows h2, h3, h4, h5, h6, a{
+  display: inline;
+}
+
+#boss1 {
+  position: absolute;
+  left: 80px;
+  top: 300px;
+}
+
+#boss2 {
+  position: absolute;
+  left: 500px;
+  top: 300px;
+}
+
+#boss3 {
+  position: absolute;
+  left: 920px;
+  top: 300px;
+}
+
+#boss4 {
+  position: absolute;
+  left: 200px;
+  top: 600px;
+}
+
+#boss5 {
+  position: absolute;
+  left: 700px;
+  top: 600px;
+}
+
 
 .dropdown-content a:hover {background-color: #2f3c47;}
 
 .dropbtn a:hover {background-color: #2f3c47;}
 
 .dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #2f3c47;}
 
 .home:hover {background-color: #2f3c47;}
 
@@ -114,3 +178,4 @@ a {
 .hub2:hover .imgtop{
   display: inline;
 }
+
