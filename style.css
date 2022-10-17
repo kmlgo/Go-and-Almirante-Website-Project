@@ -95,6 +95,8 @@ iframe {
   border-style: none;
   width: 500px;
   height: 300px;
+  display: block;
+  margin: 20px 50px;
 }
 
 .hub1 {
