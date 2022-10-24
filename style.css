@@ -85,10 +85,12 @@ p {
 
 h1 {
   font-size: 50px;
+  margin: 20px 50px;
 }
 
 h2, h3, h4, h5, h6 {
   font-size: 30px;
+  margin: 20px 50px;
 }
 
 iframe {
@@ -180,4 +182,3 @@ iframe {
 .hub2:hover .imgtop{
   display: inline;
 }
-
