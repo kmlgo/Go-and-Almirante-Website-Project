@@ -1,0 +1,29 @@
+#boss1 {
+  position: absolute;
+  left: 10px;
+  top: 300px;
+}
+
+#boss2 {
+  position: absolute;
+  left: 430px;
+  top: 300px;
+}
+
+#boss3 {
+  position: absolute;
+  left: 850px;
+  top: 300px;
+}
+
+#boss4 {
+  position: absolute;
+  left: 160px;
+  top: 600px;
+}
+
+#boss5 {
+  position: absolute;
+  left: 660px;
+  top: 600px;
+}

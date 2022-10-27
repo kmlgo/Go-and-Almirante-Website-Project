@@ -8,15 +8,6 @@
   text-align: center;
 }
 
-hr {
-  margin: 0 auto;
-}
-
-button {
-   background-color: #3c5061;
-   border: none;
-}
-
 .dropbtn a {
   background-color: #3c5061;
   color: white;
@@ -53,6 +44,53 @@ button {
   padding: 14px 25px;
   text-align: center;
   display: inline-block;
+}
+.hub1 {
+  background-color:  #1c2329;
+  position: absolute;
+  top: 350px;
+  left: 530px; 
+  z-index: -99;
+}
+
+.hub1 .imgtop{
+  background-color:  #1c2329;
+  display: none;
+  position: relative;
+  top: -235px;
+  left: -320px; 
+}
+
+.hub2 {
+  background-color:  #1c2329;
+  position: absolute;
+  top: 370px;
+  left: 900px; 
+}
+
+.hub2 .imgtop{
+  background-color:  #1c2329;
+  display: none;
+  position: absolute;
+  top: -60px;
+  left: -85px; 
+}
+
+.image{
+  margin: 0px 50px;
+}
+
+.shadows h2, h3, h4, h5, h6, a{
+  display: inline;
+}
+
+button {
+   background-color: #3c5061;
+   border: none;
+}
+
+hr {
+  margin: 0 auto;
 }
 
 li {
@@ -101,72 +139,6 @@ iframe {
   margin: 20px 50px;
 }
 
-.hub1 {
-  background-color:  #1c2329;
-  position: absolute;
-  top: 400px;
-  left: 350px; 
-  z-index: -99;
-}
-
-.hub1 .imgtop{
-  background-color:  #1c2329;
-  display: none;
-  position: relative;
-  top: -230px;
-  left: -300px; 
-}
-
-.hub2 {
-  background-color:  #1c2329;
-  position: absolute;
-  top: 370px;
-  left: 900px; 
-}
-
-.hub2 .imgtop{
-  background-color:  #1c2329;
-  display: none;
-  position: absolute;
-  top: -60px;
-  left: -85px; 
-}
-
-.shadows h2, h3, h4, h5, h6, a{
-  display: inline;
-}
-
-#boss1 {
-  position: absolute;
-  left: 80px;
-  top: 300px;
-}
-
-#boss2 {
-  position: absolute;
-  left: 500px;
-  top: 300px;
-}
-
-#boss3 {
-  position: absolute;
-  left: 920px;
-  top: 300px;
-}
-
-#boss4 {
-  position: absolute;
-  left: 200px;
-  top: 600px;
-}
-
-#boss5 {
-  position: absolute;
-  left: 700px;
-  top: 600px;
-}
-
-
 .dropdown-content a:hover {background-color: #2f3c47;}
 
 .dropbtn a:hover {background-color: #2f3c47;}
@@ -175,10 +147,6 @@ iframe {
 
 .home:hover {background-color: #2f3c47;}
 
-.hub1:hover .imgtop{
-  display: inline;
-}
+.hub1:hover .imgtop{display: inline;}
 
-.hub2:hover .imgtop{
-  display: inline;
-}
+.hub2:hover .imgtop{display: inline;}
