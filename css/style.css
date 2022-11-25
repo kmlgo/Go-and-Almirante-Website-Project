@@ -84,6 +84,16 @@
   display: inline;
 }
 
+footer {
+  margin: 20px 50px;
+}
+
+#source1{
+  font-size: 15px;
+  position: absolute;
+  top: 550px;
+}
+
 button {
    background-color: #3c5061;
    border: none;
