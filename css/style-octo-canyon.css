@@ -1,29 +1,26 @@
-#boss1 {
-  position: absolute;
-  left: 10px;
-  top: 300px;
+.center{
+  display: block;
+  margin: 20px auto;
 }
 
-#boss2 {
-  position: absolute;
-  left: 430px;
-  top: 300px;
+.image{
+  float: right;
 }
 
-#boss3 {
-  position: absolute;
-  left: 850px;
-  top: 300px;
+.first{
+  font-size: 22px;
+  margin: 50px 90px;
 }
 
-#boss4 {
-  position: absolute;
-  left: 160px;
-  top: 600px;
+.header{
+  font-size: 22px;
+  margin: 0px 90px;
 }
 
-#boss5 {
-  position: absolute;
-  left: 660px;
-  top: 600px;
+.paragraph{
+  margin-top: 5px;
+}
+
+h2, h3, h4, h4, h5, p{
+  margin: 25px 90px;
 }

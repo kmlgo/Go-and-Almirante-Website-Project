@@ -1,0 +1,147 @@
+p{
+  margin: 30px 90px;
+  text-align: center;
+}
+
+.center, .socmed{
+  text-align: center;
+}
+
+.socmed>div{
+  display: inline-block;
+}
+
+#splatWebNA{
+  width: 110px;
+  height: 100px;
+  background-image: url("../images/outline-spritesheet.png");
+  background-size: 450px 100px;
+  background-position: -320px 0px;
+  display: inline-block;
+}
+
+#splaTwtNA{
+  width: 110px;
+  height: 100px;
+  background-image: url("../images/outline-spritesheet.png");
+  background-size: 450px 100px;
+  background-position: 0 0;
+    display: inline-block;
+}
+
+#splatDisNA{
+  width: 98px;
+  height: 100px;
+  background-image: url("../images/outline-spritesheet.png");
+  background-size: 450px 100px;
+  background-position: -223px 0;
+    display: inline-block;
+}
+
+#splatWebJP{
+  width: 110px;
+  height: 100px;
+  background-image: url("../images/outline-spritesheet.png");
+  background-size: 450px 100px;
+  background-position: -320px 0px;
+  display: inline-block;
+}
+
+#splaTwtJP{
+  width: 110px;
+  height: 100px;
+  background-image: url("../images/outline-spritesheet.png");
+  background-size: 450px 100px;
+  background-position: 0 0;
+    display: inline-block;
+}
+
+#splatWebFR{
+  width: 110px;
+  height: 100px;
+  background-image: url("../images/outline-spritesheet.png");
+  background-size: 450px 100px;
+  background-position: -320px 0px;
+  display: inline-block;
+}
+
+#splaTwtFR{
+  width: 110px;
+  height: 100px;
+  background-image: url("../images/outline-spritesheet.png");
+  background-size: 450px 100px;
+  background-position: 0 0;
+    display: inline-block;
+}
+
+#splatFbFR{
+  width: 110px;
+  height: 100px;
+  background-image: url("../images/outline-spritesheet.png");
+  background-size: 450px 100px;
+  background-position: -112px 0;
+    display: inline-block;
+}
+
+#splatDisFR{
+  width: 98px;
+  height: 100px;
+  background-image: url("../images/outline-spritesheet.png");
+  background-size: 450px 100px;
+  background-position: -223px 0;
+    display: inline-block;
+}
+
+#splatWebNA:hover{
+  background-image: url("../images/colored-spritesheet.png");
+  background-size: 450px 100px;
+  background-position: -320px 0px;
+}
+
+#splaTwtNA:hover{
+  background-image: url("../images/colored-spritesheet.png");
+  background-size: 450px 100px;
+  background-position: 0 0;
+}
+
+#splatDisNA:hover{
+  background-image: url("../images/colored-spritesheet.png");
+  background-size: 450px 100px;
+  background-position: -223px 0;
+}
+
+#splatWebJP:hover{
+  background-image: url("../images/colored-spritesheet.png");
+  background-size: 450px 100px;
+  background-position: -320px 0px;
+}
+
+#splaTwtJP:hover{
+  background-image: url("../images/colored-spritesheet.png");
+  background-size: 450px 100px;
+  background-position: 0 0;
+}
+
+#splatWebFR:hover{
+  background-image: url("../images/colored-spritesheet.png");
+  background-size: 450px 100px;
+  background-position: -320px 0px;
+}
+
+#splaTwtFR:hover{
+  background-image: url("../images/colored-spritesheet.png");
+  background-size: 450px 100px;
+  background-position: 0 0;
+}
+
+#splatFbFR:hover{
+  background-image: url("../images/colored-spritesheet.png");
+  background-size: 450px 100px;
+  background-position: -112px 0;
+}
+
+#splatDisFR:hover{
+  background-image: url("../images/colored-spritesheet.png");
+  background-size: 450px 100px;
+  background-position: -223px 0;
+}

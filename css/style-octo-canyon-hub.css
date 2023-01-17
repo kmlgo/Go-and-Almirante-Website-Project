@@ -1,0 +1,104 @@
+h1{
+  margin: 20px auto;
+}
+
+p{
+  width: 1000px;
+  text-align: center;
+  margin: 20px 200px;
+}
+
+#boss1{
+  position: absolute;
+  left: 190px;
+  top: 300px;
+}
+
+#boss1img{
+  width: 250px;
+  height: 260px;
+  background-image: url("../images/octo-oven-silhoutte.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+#boss1img:hover{
+  background-image: url("../images/octo-oven.png");
+}
+
+#boss2{
+  position: absolute;
+  left: 590px;
+  top: 300px;
+}
+
+#boss2img{
+  width: 250px;
+  height: 260px;
+  background-image: url("../images/octo-samurai-silhoutte.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+#boss2img:hover{
+  background-image: url("../images/octo-samurai.png");
+}
+
+#boss3{
+  position: absolute;
+  left: 990px;
+  top: 300px;
+}
+
+#boss3img{
+  width: 250px;
+  height: 260px;
+  background-image: url("../images/octostomp-silhoutte.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+#boss3img:hover{
+  background-image: url("../images/octostomp.png");
+}
+
+#boss4 {
+  position: absolute;
+  left: 380px;
+  top: 600px;
+}
+
+#boss4img{
+  width: 250px;
+  height: 260px;
+  background-image: url("../images/octo-shower-silhoutte.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+#boss4img:hover{
+  background-image: url("../images/octo-shower.png");
+}
+
+#boss5 {
+  position: absolute;
+  left: 820px;
+  top: 600px;
+}
+
+#boss5img{
+  width: 250px;
+  height: 260px;
+  background-image: url("../images/dj-octavio-silhoutte.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+#boss5img:hover{
+  background-image: url("../images/dj-octavio.png");
+}
