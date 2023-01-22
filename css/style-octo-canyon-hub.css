@@ -3,15 +3,30 @@ h1{
 }
 
 p{
-  width: 1000px;
+  display: flex;
+  width: 75%;
+  margin: 1.2em auto;
   text-align: center;
-  margin: 20px 200px;
 }
 
-#boss1{
-  position: absolute;
-  left: 190px;
-  top: 300px;
+.row1{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+}
+
+#boss1, #boss2, #boss3{
+  margin: 0 auto;
+}
+
+.row2{
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+}
+
+#boss4, #boss5{
+  margin: 0 auto;
 }
 
 #boss1img{
@@ -27,12 +42,6 @@ p{
   background-image: url("../images/octo-oven.png");
 }
 
-#boss2{
-  position: absolute;
-  left: 590px;
-  top: 300px;
-}
-
 #boss2img{
   width: 250px;
   height: 260px;
@@ -44,12 +53,6 @@ p{
 
 #boss2img:hover{
   background-image: url("../images/octo-samurai.png");
-}
-
-#boss3{
-  position: absolute;
-  left: 990px;
-  top: 300px;
 }
 
 #boss3img{
@@ -65,12 +68,6 @@ p{
   background-image: url("../images/octostomp.png");
 }
 
-#boss4 {
-  position: absolute;
-  left: 380px;
-  top: 600px;
-}
-
 #boss4img{
   width: 250px;
   height: 260px;
@@ -82,12 +79,6 @@ p{
 
 #boss4img:hover{
   background-image: url("../images/octo-shower.png");
-}
-
-#boss5 {
-  position: absolute;
-  left: 820px;
-  top: 600px;
 }
 
 #boss5img{

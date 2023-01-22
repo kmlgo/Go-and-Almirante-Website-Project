@@ -24,3 +24,17 @@
 h2, h3, h4, h4, h5, p{
   margin: 25px 90px;
 }
+
+iframe {
+  border-style: none;
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin: 20px 50px;
+}
+
+section#gameplay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
